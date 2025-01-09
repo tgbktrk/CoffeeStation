@@ -40,7 +40,7 @@ namespace CoffeeStation.IdentityServer.Controllers
             }
             else
             {
-                return Ok("Bir hata olustu, tekrar deneyinizzzzzzzzz");
+                return Ok("Bir hata olustu, tekrar deneyiniz");
             }
         }
     }
