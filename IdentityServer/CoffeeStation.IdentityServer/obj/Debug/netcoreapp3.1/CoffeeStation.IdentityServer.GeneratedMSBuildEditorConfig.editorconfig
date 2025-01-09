@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = CoffeeStation.IdentityServer
+build_property.ProjectDir = /Users/tugbaakturk/Desktop/CoffeeStation/IdentityServer/CoffeeStation.IdentityServer/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

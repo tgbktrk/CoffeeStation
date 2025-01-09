@@ -1,0 +1,55 @@
+{
+            "version": "0.2.0",
+            "compounds": [
+        {
+            "name": "Catalog and IdentityServer",
+            "configurations": [
+                "C#: CoffeeStation.IdentityServer",
+                "C#: CoffeeStation.Catalog "
+            ]
+        },
+        {
+            "name": "Catalog, Discount and IdentityServer",
+            "configurations": [
+                "C#: CoffeeStation.IdentityServer",
+                "C#: CoffeeStation.Catalog",
+                "C#: CoffeeStation.Discount"
+            ]
+        },
+        {
+            "name": "Catalog, Discount, Order and IdentityServer",
+            "configurations": [
+                "C#: CoffeeStation.IdentityServer",
+                "C#: CoffeeStation.Catalog",
+                "C#: CoffeeStation.Discount",
+                "C#: CoffeeStation.Order"
+            ]
+        },
+    ],
+            "configurations": [
+              {
+                "name": "C#: CoffeeStation.IdentityServer [Default Configuration]",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/IdentityServer/CoffeeStation.IdentityServer/CoffeeStation.IdentityServer.csproj"
+              },
+              {
+                "name": "C#: CoffeeStation.Order",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/Services/Order/Presentation/CoffeeStation.Order.WebApi/CoffeeStation.Order.WebApi.csproj"
+              },
+              {
+                "name": "C#: CoffeeStation.Discount",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/Services/Discount/CoffeeStation.Discount/CoffeeStation.Discount.csproj"
+              },
+              {
+                "name": "C#: CoffeeStation.Catalog",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/Services/Catalog/CoffeeStation.Catalog/CoffeeStation.Catalog.csproj"
+              }
+            ]
+}

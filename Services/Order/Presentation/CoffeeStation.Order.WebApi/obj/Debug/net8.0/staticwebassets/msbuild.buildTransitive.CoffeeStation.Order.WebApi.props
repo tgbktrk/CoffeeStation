@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CoffeeStation.Order.WebApi.props" />
+</Project>

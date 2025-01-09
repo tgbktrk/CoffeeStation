@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+5TLUAVRH/4=",
+  "success": true,
+  "projectFilePath": "/Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Application/CoffeeStation.Order.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/tugbaakturk/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/tugbaakturk/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/tugbaakturk/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/tugbaakturk/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/Users/tugbaakturk/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/tugbaakturk/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
