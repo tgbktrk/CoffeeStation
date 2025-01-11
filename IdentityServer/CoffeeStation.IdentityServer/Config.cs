@@ -19,6 +19,7 @@ namespace CoffeeStation.IdentityServer
                 },
                 new ApiResource("ResourceDiscount") { Scopes = { "DiscountFullPermission" } },
                 new ApiResource("ResourceOrder") { Scopes = { "OrderFullPermission" } },
+                new ApiResource("ResourceBasket") { Scopes = { "ResourceFullPermission" } },
                 new ApiResource(IdentityServerConstants.LocalApi.ScopeName),
             };
 
@@ -37,6 +38,7 @@ namespace CoffeeStation.IdentityServer
                 new ApiScope("CatalogReadPermission", "Reading authority for catalog operations"),
                 new ApiScope("DiscountFullPermission", "Full authority for discount operations"),
                 new ApiScope("OrderFullPermission", "Full authority for order operations"),
+                new ApiScope("BasketFullPermission", "Full authority for basket operations"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName),
             };
 
@@ -57,7 +59,7 @@ namespace CoffeeStation.IdentityServer
                 {
                     ClientId = "CoffeeStationManagerId",
                     ClientName = "Coffee Station Manager User",
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     ClientSecrets = { new Secret("coffeestationsecret".Sha256()) },
                     AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" },
                 },
@@ -66,7 +68,7 @@ namespace CoffeeStation.IdentityServer
                 {
                     ClientId = "CoffeeStationAdminId",
                     ClientName = "Coffee Station Admin User",
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     ClientSecrets = { new Secret("coffeestationsecret".Sha256()) },
                     AllowedScopes =
                     {
@@ -74,6 +76,7 @@ namespace CoffeeStation.IdentityServer
                         "CatalogFullPermission",
                         "DiscountFullPermission",
                         "OrderFullPermission",
+                        "BasketFullPermission",
                         IdentityServerConstants.LocalApi.ScopeName,
                         IdentityServerConstants.StandardScopes.Email,
                         IdentityServerConstants.StandardScopes.OpenId,

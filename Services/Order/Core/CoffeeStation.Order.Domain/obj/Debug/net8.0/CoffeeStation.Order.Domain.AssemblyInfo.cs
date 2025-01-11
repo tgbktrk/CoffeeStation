@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeeStation.Order.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fcda69bb7b727375fab08fa54da8b815adf901c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c27d8d08142f340179d2549b1d4eeffe7226ab1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeeStation.Order.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeeStation.Order.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

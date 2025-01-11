@@ -213,3 +213,4 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/IdentityServer/CoffeeStation.IdentityServer/obj/Debug/net8.0/CoffeeStation.IdentityServer.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/IdentityServer/CoffeeStation.IdentityServer/obj/Debug/net8.0/CoffeeStation.IdentityServer.genruntimeconfig.cache
 /Users/tugbaakturk/Desktop/CoffeeStation/IdentityServer/CoffeeStation.IdentityServer/obj/Debug/net8.0/ref/CoffeeStation.IdentityServer.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/IdentityServer/CoffeeStation.IdentityServer/obj/Debug/net8.0/CoffeeStation.IdentityServer.sourcelink.json

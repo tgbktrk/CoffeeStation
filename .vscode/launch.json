@@ -1,6 +1,13 @@
 {
-            "version": "0.2.0",
-            "compounds": [
+          "version": "0.2.0",
+          "compounds": [
+        {
+            "name": "Basket and IdentityServer",
+            "configurations": [
+                "C#: CoffeeStation.IdentityServer",
+                "C#: CoffeeStation.Basket"
+            ]
+        },
         {
             "name": "Catalog and IdentityServer",
             "configurations": [
@@ -27,6 +34,12 @@
         },
     ],
             "configurations": [
+              {
+                "name": "C#: CoffeeStation.Basket",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/Services/Basket/CoffeeStation.Basket/CoffeeStation.Basket.csproj"
+              },   
               {
                 "name": "C#: CoffeeStation.IdentityServer [Default Configuration]",
                 "type": "dotnet",
