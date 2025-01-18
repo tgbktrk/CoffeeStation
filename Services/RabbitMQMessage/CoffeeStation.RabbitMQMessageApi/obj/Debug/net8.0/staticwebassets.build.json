@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Vidxc7TkWqybbQQ+NvTrCadNtNp/AXNDE1LtlIhkfXQ=",
+  "Source": "CoffeeStation.RabbitMQMessageApi",
+  "BasePath": "_content/CoffeeStation.RabbitMQMessageApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

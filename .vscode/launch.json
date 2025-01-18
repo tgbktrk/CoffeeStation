@@ -62,6 +62,12 @@
     ],
             "configurations": [
               {
+                "name": "C#: CoffeeStation.RabbitMQMessage",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/Services/RabbitMQMessage/CoffeeStation.RabbitMQMessageApi/CoffeeStation.RabbitMQMessageApi.csproj"
+              },   
+              {
                 "name": "C#: CoffeeStation.OcelotGateway",
                 "type": "dotnet",
                 "request": "launch",

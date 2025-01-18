@@ -19,11 +19,16 @@ builder
 IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("ocelot.json").Build();
 
 builder.Services.AddOcelot(configuration);
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
 await app.UseOcelot();
 
 app.MapGet("/", () => "Hello World!");
+
+app.MapControllers();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.Run();

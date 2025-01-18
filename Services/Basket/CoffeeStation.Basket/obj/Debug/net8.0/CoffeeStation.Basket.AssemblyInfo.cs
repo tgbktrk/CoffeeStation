@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoffeeStation.Basket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d59aa2462ebf24294f70979b29c2e849e62c3c5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c5308bbb8fd163bdd12e6964719416af4822015")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoffeeStation.Basket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoffeeStation.Basket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

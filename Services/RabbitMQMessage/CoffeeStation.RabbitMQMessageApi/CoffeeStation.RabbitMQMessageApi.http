@@ -1,0 +1,6 @@
+@CoffeeStation.RabbitMQMessageApi_HostAddress = http://localhost:5027
+
+GET {{CoffeeStation.RabbitMQMessageApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
