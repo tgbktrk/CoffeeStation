@@ -53,7 +53,7 @@ namespace CoffeeStation.IdentityServer
                 })
                 .AddInMemoryIdentityResources(Config.IdentityResources)
                 .AddInMemoryApiScopes(Config.ApiScopes)
-                .AddInMemoryApiScopes(Config.ApiScopes)
+                .AddInMemoryApiResources(Config.ApiResources)
                 .AddInMemoryClients(Config.Clients)
                 .AddAspNetIdentity<ApplicationUser>();
 
@@ -73,6 +73,18 @@ namespace CoffeeStation.IdentityServer
                     options.ClientId = "copy client ID from Google here";
                     options.ClientSecret = "copy client secret from Google here";
                 });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy(
+                    "BasketFullPermissionPolicy",
+                    policy =>
+                    {
+                        policy.AddAuthenticationSchemes("Bearer");
+                        policy.RequireClaim("scope", "BasketFullPermission");
+                    }
+                );
+            });
         }
 
         public void Configure(IApplicationBuilder app)

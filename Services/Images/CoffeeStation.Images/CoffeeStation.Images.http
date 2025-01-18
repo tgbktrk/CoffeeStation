@@ -1,0 +1,6 @@
+@CoffeeStation.Images_HostAddress = http://localhost:5299
+
+GET {{CoffeeStation.Images_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

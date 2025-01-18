@@ -1,22 +1,39 @@
 {
           "version": "0.2.0",
           "compounds": [
+            {
+              "name": "C#: OcelotGateway, Catalog, Discount IdentityServer",
+              "configurations": [
+                  "C#: CoffeeStation.OcelotGateway",
+                  "C#: CoffeeStation.Catalog",
+                "C#: CoffeeStation.Discount",
+                  "C#: CoffeeStation.IdentityServer"
+              ]
+          },
+            {
+              "name": "C#: OcelotGateway, Catalog and IdentityServer",
+              "configurations": [
+                  "C#: CoffeeStation.OcelotGateway",
+                  "C#: CoffeeStation.Catalog",
+                  "C#: CoffeeStation.IdentityServer"
+              ]
+          },
         {
-            "name": "Basket and IdentityServer",
+            "name": "C#: Basket and IdentityServer",
             "configurations": [
                 "C#: CoffeeStation.IdentityServer",
                 "C#: CoffeeStation.Basket"
             ]
         },
         {
-            "name": "Catalog and IdentityServer",
+            "name": "C#: Catalog and IdentityServer",
             "configurations": [
                 "C#: CoffeeStation.IdentityServer",
-                "C#: CoffeeStation.Catalog "
+                "C#: CoffeeStation.Catalog"
             ]
         },
         {
-            "name": "Catalog, Discount and IdentityServer",
+            "name": "C#: Catalog, Discount and IdentityServer",
             "configurations": [
                 "C#: CoffeeStation.IdentityServer",
                 "C#: CoffeeStation.Catalog",
@@ -24,7 +41,7 @@
             ]
         },
         {
-            "name": "Catalog, Discount, Order and IdentityServer",
+            "name": "C#: Catalog, Discount, Order and IdentityServer",
             "configurations": [
                 "C#: CoffeeStation.IdentityServer",
                 "C#: CoffeeStation.Catalog",
@@ -32,8 +49,24 @@
                 "C#: CoffeeStation.Order"
             ]
         },
+        {
+          "name": "C#: Catalog, Discount, Order, Basket and IdentityServer",
+          "configurations": [
+              "C#: CoffeeStation.IdentityServer",
+              "C#: CoffeeStation.Catalog",
+              "C#: CoffeeStation.Discount",
+              "C#: CoffeeStation.Order",
+              "C#: CoffeeStation.Basket"
+          ]
+      },
     ],
             "configurations": [
+              {
+                "name": "C#: CoffeeStation.OcelotGateway",
+                "type": "dotnet",
+                "request": "launch",
+                "projectPath": "${workspaceFolder}/ApiGateway/CoffeeStation.OcelotGateway/CoffeeStation.OcelotGateway.csproj"
+              }, 
               {
                 "name": "C#: CoffeeStation.Basket",
                 "type": "dotnet",
@@ -41,7 +74,7 @@
                 "projectPath": "${workspaceFolder}/Services/Basket/CoffeeStation.Basket/CoffeeStation.Basket.csproj"
               },   
               {
-                "name": "C#: CoffeeStation.IdentityServer [Default Configuration]",
+                "name": "C#: CoffeeStation.IdentityServer",
                 "type": "dotnet",
                 "request": "launch",
                 "projectPath": "${workspaceFolder}/IdentityServer/CoffeeStation.IdentityServer/CoffeeStation.IdentityServer.csproj"

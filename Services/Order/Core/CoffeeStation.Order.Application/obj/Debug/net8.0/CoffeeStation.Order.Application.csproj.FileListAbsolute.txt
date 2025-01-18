@@ -13,3 +13,4 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Application/obj/Debug/net8.0/refint/CoffeeStation.Order.Application.dll
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Application/obj/Debug/net8.0/CoffeeStation.Order.Application.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Application/obj/Debug/net8.0/ref/CoffeeStation.Order.Application.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Application/obj/Debug/net8.0/CoffeeStation.Order.Application.sourcelink.json

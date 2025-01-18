@@ -5,19 +5,21 @@ using System.Threading.Tasks;
 using CoffeeStation.Basket.Dtos;
 using CoffeeStation.Basket.LoginServices;
 using CoffeeStation.Basket.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CoffeeStation.Basket.Controllers
+namespace CoffeeStation.Basket.Controller
 {
+    // [Authorize("BasketFullPermissionPolicy")]
     [ApiController]
     [Route("api/[controller]")]
-    public class BasketControllers : ControllerBase
+    public class BasketController : ControllerBase
     {
         private readonly IBasketService _basketService;
 
         private readonly ILoginService _loginService;
 
-        public BasketControllers(IBasketService basketService, ILoginService loginService)
+        public BasketController(IBasketService basketService, ILoginService loginService)
         {
             _basketService = basketService;
             _loginService = loginService;

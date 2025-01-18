@@ -29,7 +29,7 @@ namespace CoffeeStation.Catalog.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(string id)
         {
-            var values = _productService.GetByIdProductAsync(id);
+            var values = await _productService.GetByIdProductAsync(id);
             return Ok(values);
         }
 
@@ -53,6 +53,5 @@ namespace CoffeeStation.Catalog.Controllers
             await _productService.UpdateProductAsync(updateProductDto);
             return Ok("Urun basariyla guncellendi");
         }
-        
     }
 }

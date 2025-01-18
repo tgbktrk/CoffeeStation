@@ -39,3 +39,12 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/obj/Debug/net8.0/CoffeeStation.Catalog.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/obj/Debug/net8.0/CoffeeStation.Catalog.genruntimeconfig.cache
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/obj/Debug/net8.0/ref/CoffeeStation.Catalog.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Catalog/CoffeeStation.Catalog/obj/Debug/net8.0/CoffeeStation.Catalog.sourcelink.json

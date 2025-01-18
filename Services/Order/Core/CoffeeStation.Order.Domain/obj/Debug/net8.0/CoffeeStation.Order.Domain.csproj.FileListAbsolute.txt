@@ -9,3 +9,4 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Domain/obj/Debug/net8.0/refint/CoffeeStation.Order.Domain.dll
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Domain/obj/Debug/net8.0/CoffeeStation.Order.Domain.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Domain/obj/Debug/net8.0/ref/CoffeeStation.Order.Domain.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Core/CoffeeStation.Order.Domain/obj/Debug/net8.0/CoffeeStation.Order.Domain.sourcelink.json

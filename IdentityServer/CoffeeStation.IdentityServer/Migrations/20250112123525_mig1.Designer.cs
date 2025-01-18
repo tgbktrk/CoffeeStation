@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoffeeStation.IdentityServer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241229182735_mig1")]
+    [Migration("20250112123525_mig1")]
     partial class mig1
     {
         /// <inheritdoc />

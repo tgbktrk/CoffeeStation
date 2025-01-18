@@ -176,3 +176,5 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Presentation/CoffeeStation.Order.WebApi/obj/Debug/net8.0/CoffeeStation.Order.WebApi.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Presentation/CoffeeStation.Order.WebApi/obj/Debug/net8.0/CoffeeStation.Order.WebApi.genruntimeconfig.cache
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Presentation/CoffeeStation.Order.WebApi/obj/Debug/net8.0/ref/CoffeeStation.Order.WebApi.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Presentation/CoffeeStation.Order.WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Presentation/CoffeeStation.Order.WebApi/obj/Debug/net8.0/CoffeeStation.Order.WebApi.sourcelink.json

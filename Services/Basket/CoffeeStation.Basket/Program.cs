@@ -9,8 +9,8 @@ using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Değişkenin içerisine bir kullanıcının zorunlu olması gerektiğini atadık
-var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+// //Değişkenin içerisine bir kullanıcının zorunlu olması gerektiğini atadık
+// var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 
 //Sub'ın map'leme işlemi kaldırıldı
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
@@ -40,7 +40,7 @@ builder.Services.AddSingleton<RedisService>(sp =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddControllers(opt =>
 {
-    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+    // opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
 });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

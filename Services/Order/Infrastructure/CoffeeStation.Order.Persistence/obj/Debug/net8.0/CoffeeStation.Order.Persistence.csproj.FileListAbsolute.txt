@@ -17,3 +17,4 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Infrastructure/CoffeeStation.Order.Persistence/obj/Debug/net8.0/CoffeeStation.Order.Persistence.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Infrastructure/CoffeeStation.Order.Persistence/obj/Debug/net8.0/CoffeeStation.Order.Persistence.genruntimeconfig.cache
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Infrastructure/CoffeeStation.Order.Persistence/obj/Debug/net8.0/ref/CoffeeStation.Order.Persistence.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Order/Infrastructure/CoffeeStation.Order.Persistence/obj/Debug/net8.0/CoffeeStation.Order.Persistence.sourcelink.json

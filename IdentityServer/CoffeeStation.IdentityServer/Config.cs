@@ -19,7 +19,8 @@ namespace CoffeeStation.IdentityServer
                 },
                 new ApiResource("ResourceDiscount") { Scopes = { "DiscountFullPermission" } },
                 new ApiResource("ResourceOrder") { Scopes = { "OrderFullPermission" } },
-                new ApiResource("ResourceBasket") { Scopes = { "ResourceFullPermission" } },
+                new ApiResource("ResourceBasket") { Scopes = { "BasketFullPermission" } },
+                new ApiResource("ResourceOcelot") { Scopes = { "OcelotFullPermission" } },
                 new ApiResource(IdentityServerConstants.LocalApi.ScopeName),
             };
 
@@ -39,6 +40,7 @@ namespace CoffeeStation.IdentityServer
                 new ApiScope("DiscountFullPermission", "Full authority for discount operations"),
                 new ApiScope("OrderFullPermission", "Full authority for order operations"),
                 new ApiScope("BasketFullPermission", "Full authority for basket operations"),
+                new ApiScope("OcelotFullPermission", "Full authority for ocelot operations"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName),
             };
 
@@ -52,7 +54,7 @@ namespace CoffeeStation.IdentityServer
                     ClientName = "Coffee Station Visitor User",
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("coffeestationsecret".Sha256()) },
-                    AllowedScopes = { "CatalogReadPermission" },
+                    AllowedScopes = { "CatalogReadPermission", "OcelotFullPermission" },
                 },
                 //Manager
                 new Client
@@ -61,7 +63,13 @@ namespace CoffeeStation.IdentityServer
                     ClientName = "Coffee Station Manager User",
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     ClientSecrets = { new Secret("coffeestationsecret".Sha256()) },
-                    AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission" },
+                    AllowedScopes =
+                    {
+                        "CatalogReadPermission",
+                        "CatalogFullPermission",
+                        "BasketFullPermission",
+                        "OcelotFullPermission",
+                    },
                 },
                 //Admin
                 new Client
@@ -77,6 +85,8 @@ namespace CoffeeStation.IdentityServer
                         "DiscountFullPermission",
                         "OrderFullPermission",
                         "BasketFullPermission",
+                        "OcelotFullPermission",
+                        "localapi",
                         IdentityServerConstants.LocalApi.ScopeName,
                         IdentityServerConstants.StandardScopes.Email,
                         IdentityServerConstants.StandardScopes.OpenId,

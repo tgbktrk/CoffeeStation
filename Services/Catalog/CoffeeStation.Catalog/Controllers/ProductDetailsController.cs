@@ -29,12 +29,14 @@ namespace CoffeeStation.Catalog.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductDetailById(string id)
         {
-            var values = _productDetailService.GetByIdProductDetailAsync(id);
+            var values = await _productDetailService.GetByIdProductDetailAsync(id);
             return Ok(values);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateProductDetail(CreateProductDetailDto createProductDetailDto)
+        public async Task<IActionResult> CreateProductDetail(
+            CreateProductDetailDto createProductDetailDto
+        )
         {
             await _productDetailService.CreateProductDetailAsync(createProductDetailDto);
             return Ok("Urun detayi basariyla eklendi");
@@ -48,11 +50,12 @@ namespace CoffeeStation.Catalog.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateProductDetail(UpdateProductDetailDto updateProductDetailDto)
+        public async Task<IActionResult> UpdateProductDetail(
+            UpdateProductDetailDto updateProductDetailDto
+        )
         {
             await _productDetailService.UpdateProductDetailAsync(updateProductDetailDto);
             return Ok("Urun detayi basariyla guncellendi");
         }
-        
     }
 }

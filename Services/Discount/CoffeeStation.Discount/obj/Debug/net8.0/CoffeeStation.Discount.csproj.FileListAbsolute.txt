@@ -168,3 +168,5 @@
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Discount/CoffeeStation.Discount/obj/Debug/net8.0/CoffeeStation.Discount.pdb
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Discount/CoffeeStation.Discount/obj/Debug/net8.0/CoffeeStation.Discount.genruntimeconfig.cache
 /Users/tugbaakturk/Desktop/CoffeeStation/Services/Discount/CoffeeStation.Discount/obj/Debug/net8.0/ref/CoffeeStation.Discount.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Discount/CoffeeStation.Discount/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/tugbaakturk/Desktop/CoffeeStation/Services/Discount/CoffeeStation.Discount/obj/Debug/net8.0/CoffeeStation.Discount.sourcelink.json
